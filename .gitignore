@@ -1,0 +1,87 @@
+# --- OS junk ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# virtual envs
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# (optional) keep notebooks clean; comment out if you WANT outputs tracked
+# **/*.ipynb
+
+# --- Data / artifacts ---
+# common data / model outputs
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.onnx
+*.sav
+
+# logs / caches
+logs/
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+coverage.xml
+
+# --- ML experiment tooling ---
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+runs/
+
+# --- IDEs ---
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# --- Notebooks exported stuff ---
+*.html
+*.pdf
+
+# --- Git internals (just in case someone pastes it somewhere weird) ---
+.git/
